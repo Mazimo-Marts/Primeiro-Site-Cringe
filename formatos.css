@@ -1,0 +1,66 @@
+
+/* Corpo do HTML */
+body {
+    background-color: coral;
+    display: flexbox;
+    overflow-y: auto;
+    text-align: center;
+}
+
+section {
+    font-size: 1.3rem;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+}
+
+ul {
+    text-align: left;
+}
+
+form {
+    text-align: left;
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    width: 60%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 25px;
+}
+
+/* Classes */
+.btn {
+    background-color: rgb(59, 57, 57);
+    border: none;
+    font-size: 1.4em;
+    height: 48px;
+    width: auto;
+    margin-top: -1vh;
+    margin-left: 10px;
+}
+
+/* IDs */
+#center {
+    padding-top: 40vh;
+}
+
+#left {
+    text-align: left;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding-top: 5vh;
+    padding-left: 10px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
